@@ -58,7 +58,7 @@ const Index = () => {
             <div className="text-lg md:text-xl text-muted-foreground space-y-2 max-w-3xl mx-auto">
               <div className="bg-card/50 border-2 border-primary/40 rounded-xl p-4 mt-4 mb-2">
                 <p className="text-primary font-bold text-xl mb-2">
-                  04 de Julho em Santos - SP!
+                  29 de Agosto em Santos - SP!
                 </p>
                 <p className="font-semibold text-foreground text-base">
                   Vagas limitadas! Garanta sua vaga agora.
@@ -405,7 +405,7 @@ const Index = () => {
               <FAQItem
                 value="faq-4"
                 question="Quando e onde sera a experiencia?"
-                answer="A experiencia sera realizada no dia 04/07 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na Av. D. Ana Costa, 61 - Gonzaga, Santos - SP. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                answer="A experiencia sera realizada no dia 29/08 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na Av. D. Ana Costa, 61 - Gonzaga, Santos - SP. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"

@@ -7,14 +7,14 @@ import { MetaIdentity } from "../utils/meta-identity";
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
-const NPA_EVENTO_ID = "62e66f99-3b7d-45fc-acdb-7c37ceb66841";
+const NPA_EVENTO_ID = "1c079952-5ce9-4d26-9ca9-d3110bef769e";
 
 type TurmaOption = "04jul_manha" | "04jul_tarde" | null;
 
 const TURMA_CONFIG = {
   "04jul_manha": {
-    label: "04/07 - Manha",
-    data: "04 de Julho",
+    label: "29/08 - Manha",
+    data: "29 de Agosto",
     diaSemana: "Sabado",
     horario: "09:00 as 13:00",
     endereco: "Av. D. Ana Costa, 61 - Gonzaga, Santos",
@@ -25,8 +25,8 @@ const TURMA_CONFIG = {
     checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD4LB",
   },
   "04jul_tarde": {
-    label: "04/07 - Tarde",
-    data: "04 de Julho",
+    label: "29/08 - Tarde",
+    data: "29 de Agosto",
     diaSemana: "Sabado",
     horario: "14:00 as 18:00",
     endereco: "Av. D. Ana Costa, 61 - Gonzaga, Santos",
@@ -333,7 +333,7 @@ export const EnrollmentForm = () => {
         <div>
           <Label className="text-foreground font-medium flex items-center gap-2 mb-3">
             <Calendar className="h-5 w-5" />
-            Escolha sua turma - 04 de Julho
+            Escolha sua turma - 29 de Agosto
           </Label>
           <div className="space-y-3">
             {(Object.keys(TURMA_CONFIG) as TurmaOption[])
