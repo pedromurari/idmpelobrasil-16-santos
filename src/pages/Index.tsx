@@ -5,7 +5,7 @@ import { FAQItem } from "@/components/FAQItem";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { StudentGallery } from "@/components/StudentGallery";
 import { Accordion } from "@/components/ui/accordion";
-import rodrygoMurari from "@/assets/rodrygo-murari.png";
+import rodrygoMurari from "@/assets/rodrygo-murari.jpg";
 import { VideoPlayer } from "@/components/VideoPlayer";
 
 const Index = () => {
