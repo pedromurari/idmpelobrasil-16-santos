@@ -22,7 +22,7 @@ const TURMA_CONFIG = {
     esgotada: false,
     sheetUrl:
       "https://script.google.com/macros/s/AKfycbxflTbKRvWFBi-Pkb3bM1O8PYj5qw18oKUjwthOWCLhN0pvrTrq5IXJDtXWpMlo4Efj/exec",
-    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD4LB",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD7SA",
   },
   "04jul_tarde": {
     label: "29/08 - Tarde",
@@ -34,7 +34,7 @@ const TURMA_CONFIG = {
     esgotada: false,
     sheetUrl:
       "https://script.google.com/macros/s/AKfycbxflTbKRvWFBi-Pkb3bM1O8PYj5qw18oKUjwthOWCLhN0pvrTrq5IXJDtXWpMlo4Efj/exec",
-    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD4LC",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD7SB",
   },
 };
 
