@@ -16,7 +16,7 @@ const TURMA_CONFIG = {
     data: "29 de Agosto",
     diaSemana: "Sabado",
     horario: "09:00 as 13:00",
-    endereco: "Av. D. Ana Costa, 61 - Gonzaga, Santos",
+    endereco: "Av. Anna Costa, 61 - Vila Mathias, Santos",
     enderecoDefinido: true,
     esgotada: false,
     sheetUrl:
@@ -28,7 +28,7 @@ const TURMA_CONFIG = {
     data: "29 de Agosto",
     diaSemana: "Sabado",
     horario: "14:00 as 18:00",
-    endereco: "Av. D. Ana Costa, 61 - Gonzaga, Santos",
+    endereco: "Av. Anna Costa, 61 - Vila Mathias, Santos",
     enderecoDefinido: true,
     esgotada: false,
     sheetUrl:

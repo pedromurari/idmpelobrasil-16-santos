@@ -405,7 +405,7 @@ const Index = () => {
               <FAQItem
                 value="faq-4"
                 question="Quando e onde sera a experiencia?"
-                answer="A experiencia sera realizada no dia 29/08 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na Av. D. Ana Costa, 61 - Gonzaga, Santos - SP. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                answer="A experiencia sera realizada no dia 29/08 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na Av. Anna Costa, 61 - Vila Mathias, Santos - SP. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"
@@ -456,7 +456,7 @@ const Index = () => {
               WhatsApp: (11) 97537-9719
             </p>
             <p className="flex items-center justify-center gap-2">
-              Av. D. Ana Costa, 61 - Gonzaga, Santos - SP
+              Av. Anna Costa, 61 - Vila Mathias, Santos - SP
             </p>
           </div>
 
