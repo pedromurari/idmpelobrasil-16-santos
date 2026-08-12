@@ -6,7 +6,6 @@ import { User, Phone, Loader2, Calendar, MapPin } from "lucide-react";
 import { MetaIdentity } from "../utils/meta-identity";
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const NPA_EVENTO_ID = "1c079952-5ce9-4d26-9ca9-d3110bef769e";
 
 type TurmaOption = "04jul_manha" | "04jul_tarde" | null;
@@ -124,19 +123,17 @@ export const EnrollmentForm = () => {
         mode: "no-cors",
       });
 
-      fetch(`${SUPABASE_URL}/rest/v1/npa_evento_leads`, {
+      // Insert direto com anon key esta bloqueado por um bug de RLS
+      // (leitura funciona, escrita nao). Usamos uma Edge Function com
+      // service role, mesmo padrao ja usado em outras functions do
+      // projeto (webhook-leads, lead-event), pra contornar isso.
+      fetch(`${SUPABASE_URL}/functions/v1/npa-lead-create`, {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "apikey": SUPABASE_ANON_KEY,
-          "Authorization": `Bearer ${SUPABASE_ANON_KEY}`,
-          "Prefer": "return=minimal",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           npa_evento_id: NPA_EVENTO_ID,
           nome: name.trim(),
           whatsapp: phoneToSend,
-          fase: "novo",
           turma: selectedTurma === "04jul_manha" ? "manha" : "tarde",
         }),
       }).catch((err) => console.error("Erro ao salvar no CRM:", err));
